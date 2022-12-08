@@ -2,10 +2,10 @@ package br.edu.ifrn;
 
 public class User {
     protected String name;
-    private Double height;
-    private Double weight;
+    private float height;
+    private float weight;
 
-    public User(String name, Double height, Double weight) {
+    public User(String name, float height, float weight) {
         this.name = name;
         this.height = height;
         this.weight = weight;
@@ -15,11 +15,11 @@ public class User {
         return this.name;
     }
 
-    protected Double getHeight() {
+    protected float getHeight() {
         return this.height;
     }
 
-    protected Double getWeight() {
+    protected float getWeight() {
         return this.weight;
     }
 
