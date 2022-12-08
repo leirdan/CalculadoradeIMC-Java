@@ -1,5 +1,12 @@
-package br.edu.ifrn;public class Main {
+package br.edu.ifrn;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
     }
+
+    public Integer calculate() {
+        return 0;
+    }
+
 }
